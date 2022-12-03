@@ -26,7 +26,7 @@ class DB
         }
     }
 
-//MOJE
+
 
   public function getMenu(){
         $menuItems = [];
@@ -314,7 +314,7 @@ class DB
 
 
 
-//NIE MOJE
+
    public function deleteObrazok($id)
     {
         $sql = "DELETE FROM obrazky WHERE id = ".$id;
